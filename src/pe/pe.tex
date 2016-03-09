@@ -1,0 +1,188 @@
+%-----//
+%
+% DESCRIÇÃO
+%
+%   - Plano de Ensino
+%
+% AUTOR
+%
+%   - Eduardo Heredia (contato@eduardoheredia.pro.br)
+%
+% HISTÓRICO
+%
+%   - 01/02/2015: Versão inicial
+%
+%-----\\
+
+\documentclass[a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{url}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage[portuguese,ruled,linesnumbered]{algorithm2e}
+
+\newcommand{\versao}{versão \today}
+
+\pdfinfo{
+    /Author   (Prof. Eduardo Heredia <eduardo.heredia@sp.senac.br>)
+    /Title    (Plano de Ensino Resumido)
+    /Subject  (Plano de Ensino para a disciplina Algoritmos e Linguagem de Programação)
+    /Keywords (Plano de Ensino; Algoritmo; Linguagem de Programação)
+}
+
+\title{Algoritmos e Linguagem de Programação}
+\author{Prof. Eduardo Heredia\footnote{eduardo.heredia@sp.senac.br}}
+\date{Plano de Ensino Resumido\\\tiny{\versao}}
+
+\begin{document}
+
+    \maketitle
+
+    \section{Ementa}
+
+        Apresenta uma visão geral do processo de programação e os
+        fundamentos das linguagens de programação: valores e variáveis,
+        comandos básicos, atribuições, comandos condicionais, comandos
+        de iteração, comandos de seleção e funções com o objetivo de
+        desenvolver algoritmos e estratégias de solução, representação,
+        simulação e documentação no contexto de problemas de análise
+        automatizada de dados enfrentados por profissionais em
+        prática.
+
+    \section{Objetivos}
+
+        Introduzir conceitos básicos de programação e desenvolver o
+        raciocínio lógico necessário para a resolução automatizada de
+        problemas. Apresentar na prática os principais fundamentos do
+        paradigma procedural através de programas escritos em uma
+        linguagem específica.
+
+    \section{Metodologia de Ensino}
+
+        \begin{description}
+
+            \item[Aulas Teóricas] apresentação dos fundamentos teóricos
+                com análise e discussão dos assuntos apresentados
+                utilizando-se recursos multimídia e textos de apoio;
+
+            \item[Aulas Práticas] ilustração dos fundamentos teóricos
+                através da experimentação prática;
+
+            \item[Atividades Discentes Orientadas (ADO)] atividades
+               realizadas extra-classe pelos alunos com o intuito de
+               reforçar conceitos desenvolvidos em sala de aula, como
+               por exemplo: resolução de listas de exercícios, e
+               desenvolvimento de código computacional sem auxíliio direto
+               do professor.
+
+        \end{description}
+
+    \section{Plano de Aulas}
+
+        \begin{longtable}{lll}
+
+            \toprule
+
+            Aula & Conteúdo programático & Recurso previsto\\
+
+            \toprule
+            \toprule
+
+            \multirow{3}{*}{Aula 00} & Apresentação da disciplina                      & Lousa e projetor \\ \cmidrule{2-3}
+                                     & Apresentação das ferramentas de desenvolvimento & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: tutorial code.org                                             \\ \midrule
+
+            \multirow{3}{*}{Aula 01} & Conceitos básicos para programação              & Lousa e projetor \\ \cmidrule{2-3}
+                                     & Oi, mundo!                                      & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 02} & Execução Condicional I                          & Lousa e projetor \\ \cmidrule{2-3}
+                                     & IF/ELSE                                         & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 03} & Execução Condicional II                         & Lousa e projetor \\ \cmidrule{2-3}
+                                     & SWITCH/CASE                                     & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 04} & Execução Iterativa I                            & Lousa e projetor \\ \cmidrule{2-3}
+                                     & FOR                                             & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 05} & Execução Iterativa II                           & Lousa e projetor \\ \cmidrule{2-3}
+                                     & WHILE/DO\ldots{}WHILE                           & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            Aula 06                  & Avaliação Escrita I                             & Sala de aula     \\ \midrule
+
+            \multirow{3}{*}{Aula 07} & Introdução a vetores                            & Lousa e projetor \\ \cmidrule{2-3}
+                                     & vetor[]                                         & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 08} & Introdução a strings                            & Lousa e projetor \\ \cmidrule{2-3}
+                                     & ``texto''                                       & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 09} & Criação de funções I                            & Lousa e projetor \\ \cmidrule{2-3}
+                                     & retorno funcao(parâmetros)                      & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 0A} & Criação de funções II                           & Lousa e projetor \\ \cmidrule{2-3}
+                                     & retorno funcao(parâmetros)                      & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 0B} & Introdução a matrizes                           & Lousa e projetor \\ \cmidrule{2-3}
+                                     & matriz[][]                                      & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            Aula 0C                  & Avaliação Escrita II                            & Sala de aula     \\ \midrule
+
+            \multirow{3}{*}{Aula 0D} & Introdução a ponteiros I                        & Lousa e projetor \\ \cmidrule{2-3}
+                                     & *p; p->                                         & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            \multirow{3}{*}{Aula 0E} & Introdução a ponteiros II                       & Lousa e projetor \\ \cmidrule{2-3}
+                                     & retorno (* f)(parâmetros)                       & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            Aula 0F                  & Semana de Projetos Interativos                  &                  \\ \midrule
+
+            \multirow{3}{*}{Aula 10} & Estudo dirigido                                 & Lousa e projetor \\ \cmidrule{2-3}
+                                     & Resolução de problema real do BEAS              & Laboratório      \\ \cmidrule{2-3}
+                                     & ADO: Lista de exercícios de fixação                                \\ \midrule
+
+            Aula 11                  & Avaliação Escrita III (AE3)                     & Sala de aula     \\ \bottomrule
+
+        \end{longtable}
+
+        \subsection{Acompanhamento de Estudos}
+
+            \begin{itemize}
+                \item Todo código computacional desenvolvido pelo aluno
+                      deverá ser compartilhado via GitHub;
+                \item Toda ADO desenvolvida pelo aluno deverá ser compartilhada
+                      via GitHub; 
+                \item As devolutivas das avaliações escritas serão feitas
+                      sempre na semana subsequente a sua realização.
+            \end{itemize}
+
+    \begin{thebibliography}{9}
+
+        \bibitem{KR1} KERNIGHAN, B.W.; RITCHIE, D. C: A linguagem de
+            programação. Campus, 1989.
+
+        \bibitem{KR2} KERNIGHAN, B.W.; PIKE, R: A prática da programação.
+            Campus, 2000.
+
+        \bibitem{Xavier} XAVIER, G.F.C. Lógica de programação. São Paulo:
+            Senac São Paulo, 2004.
+
+	\end{thebibliography}
+
+\end{document}
